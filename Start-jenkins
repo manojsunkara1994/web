@@ -1,0 +1,5 @@
+[3;2~# Start jenkins service
+service jenkins start
+
+# Setup Jenkins to start at boot,
+chkconfig jenkins on
